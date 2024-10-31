@@ -5,10 +5,10 @@
 ### Screenshots
 
 <div style="display: flex; gap: 10px;">
-  <img src="./screenshots/main.png" alt="Screenshot 1" width="25%" />
-  <img src="./screenshots/reservation.png" alt="Screenshot 2" width="25%" />
-  <img src="./screenshots/modify.png" alt="Screenshot 3" width="25%" />
-  <img src="./screenshots/cancellation.png" alt="Screenshot 4" width="25%" />
+  <img src="./screenshots/main.png" alt="Screenshot 1" width="20%" />
+  <img src="./screenshots/reservation.png" alt="Screenshot 2" width="20%" />
+  <img src="./screenshots/modify.png" alt="Screenshot 3" width="20%" />
+  <img src="./screenshots/cancellation.png" alt="Screenshot 4" width="20%" />
 </div>
 
 ## Get Started
