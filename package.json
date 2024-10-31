@@ -1,0 +1,30 @@
+{
+  "name": "hcihw3",
+  "version": "1.0.0",
+  "description": "기본 HTML/Javascript 연습: 기본 티켓 예약 서비스",
+  "source": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "vite",
+    "dev:server": "node server/index.js",
+    "build:client": "vite build",
+    "build:server": "node server/index.js",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.10"
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "staticOutPath": "static"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}

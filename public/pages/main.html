@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KU 기차 티켓 서비스</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>KU 기차 티켓 서비스</h1>
+    </header>
+    <main>
+      <section id="user-info">
+        <h2>John Doe님, 환영합니다!</h2>
+      </section>
+      <section id="actions">
+        <div class="action-buttons">
+          <button data-link="/reserve" class="action-button">
+            <span class="action-icon">🎫</span>
+            <span class="action-text">예약하기</span>
+          </button>
+          <button data-link="/cancel" class="action-button">
+            <span class="action-icon">❌</span>
+            <span class="action-text">예약 취소</span>
+          </button>
+          <button data-link="/modify" class="action-button">
+            <span class="action-icon">🔄</span>
+            <span class="action-text">예약 변경</span>
+          </button>
+        </div>
+      </section>
+      <section id="my-reservations">
+        <h2>나의 예약 목록</h2>
+        <ul id="reservation-list"></ul>
+      </section>
+    </main>
+  </body>
+</html>

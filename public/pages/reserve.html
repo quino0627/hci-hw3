@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약 화면</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎫 예약하기</h1>
+      <button data-link="/" class="home-button">메인 페이지로</button>
+    </header>
+    <main>
+      <section id="available-reservations">
+        <h2>예약 가능한 열차</h2>
+        <ul id="available-list"></ul>
+      </section>
+      <section id="reservation-confirmation" style="display: none">
+        <h2>예약 확인</h2>
+        <div id="reservation-details"></div>
+        <div class="detail-action-buttons">
+          <button id="confirm-reservation-btn" class="primary-button">
+            예약 확정
+          </button>
+          <button id="back-to-list-btn" class="secondary-button">
+            목록으로 돌아가기
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

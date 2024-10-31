@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약 변경 상세</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>예약 변경 상세</h1>
+      <button data-link="/" class="home-button">메인 페이지로</button>
+    </header>
+    <main>
+      <section id="current-reservation">
+        <h2>현재 예약 정보</h2>
+        <div id="current-details"></div>
+      </section>
+      <section id="filter-options">
+        <h2>필터 옵션</h2>
+        <div class="filter-buttons">
+          <button id="same-departure">같은 출발지</button>
+          <button id="same-arrival">같은 목적지</button>
+          <button id="same-date">같은 출발 일자</button>
+        </div>
+      </section>
+      <section id="available-options">
+        <h2>변경 가능한 예약</h2>
+        <ul id="available-list"></ul>
+      </section>
+    </main>
+  </body>
+</html>
