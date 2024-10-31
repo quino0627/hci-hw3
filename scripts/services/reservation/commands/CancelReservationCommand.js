@@ -14,10 +14,8 @@ class CancelReservationCommand extends IReservationCommand {
 
   async execute() {
     try {
-      // 내 예약 목록에서 삭제
       await this.#myService.removeReservation(this.#reservation.id);
 
-      // 예약 가능 목록에 추가
       await this.#availableService.addReservation(this.#reservation);
     } catch (error) {
       console.error("예약 취소 오류:", error);

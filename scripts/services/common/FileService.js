@@ -54,9 +54,9 @@ class FileService {
       const response = await fetch(endpoint, {
         method: "PUT",
         headers: {
-          "Content-Type": "text/plain", // text/plain으로 변경
+          "Content-Type": "text/plain",
         },
-        body: content, // 이미 문자열로 변환된 content
+        body: content,
       });
 
       if (!response.ok) {

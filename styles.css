@@ -1,23 +1,19 @@
-/* Reset CSS 임포트 */
 @import "./styles/reset.css";
 
-/* 공통 변수 */
 :root {
-  /* Bezier 색상 시스템 */
-  --primary: #4c4cff; /* Primary Blue */
-  --primary-dark: #3333b2; /* Darker Blue */
-  --secondary: #f7f7fa; /* Light Gray */
-  --text-primary: #2b2b38; /* Dark Gray */
-  --text-secondary: #8b8b9a; /* Medium Gray */
-  --border: #dcdce3; /* Border Gray */
-  --background: #ffffff; /* White */
-  --error: #ff4c4c; /* Red */
-  --success: #4c4cff; /* Success를 Primary와 동일하게 변경 */
+  --primary: #4c4cff;
+  --primary-dark: #3333b2;
+  --secondary: #f7f7fa;
+  --text-primary: #2b2b38;
+  --text-secondary: #8b8b9a;
+  --border: #dcdce3;
+  --background: #ffffff;
+  --error: #ff4c4c;
+  --success: #4c4cff;
 
-  /* 추가 색상 */
-  --surface: #ffffff; /* Surface White */
-  --overlay: rgba(43, 43, 56, 0.5); /* Overlay */
-  --disabled: #dcdce3; /* Disabled Gray */
+  --surface: #ffffff;
+  --overlay: rgba(43, 43, 56, 0.5);
+  --disabled: #dcdce3;
 
   --spacing-xs: 0.4rem;
   --spacing-sm: 0.8rem;
@@ -25,19 +21,18 @@
   --spacing-lg: 2.4rem;
   --spacing-xl: 3.2rem;
 
-  --radius-sm: 0.8rem; /* 0.4rem -> 0.8rem */
-  --radius-md: 1.2rem; /* 0.8rem -> 1.2rem */
-  --radius-lg: 2rem; /* 1.6rem -> 2.0rem */
+  --radius-sm: 0.8rem;
+  --radius-md: 1.2rem;
+  --radius-lg: 2rem;
 
   --shadow-sm: 0 1px 2px rgba(43, 43, 56, 0.1);
   --shadow-md: 0 2px 4px rgba(43, 43, 56, 0.1);
   --shadow-lg: 0 4px 8px rgba(43, 43, 56, 0.1);
 
-  --warning: #ff8c4c; /* Warning Orange */
-  --warning-dark: #b25c2b; /* Darker Warning */
+  --warning: #ff8c4c;
+  --warning-dark: #b25c2b;
 }
 
-/* 레이아웃 */
 body {
   background-color: var(--background);
 }
@@ -48,7 +43,6 @@ body {
   padding: var(--spacing-md);
 }
 
-/* 헤더 스타일 */
 header {
   padding: var(--spacing-md) 0;
   margin-bottom: var(--spacing-lg);
@@ -63,7 +57,6 @@ header h1 {
   color: var(--text-primary);
 }
 
-/* 섹션 스타일 */
 section {
   margin-bottom: var(--spacing-xl);
 }
@@ -74,7 +67,6 @@ section h2 {
   margin-bottom: var(--spacing-md);
 }
 
-/* 버튼 스타일 */
 button {
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius-md);
@@ -118,14 +110,12 @@ button {
   background-color: var(--text-primary);
 }
 
-/* 리스트 스타일 */
 ul {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-sm);
 }
 
-/* 액션 버튼 그룹 */
 .action-buttons {
   display: flex;
   background: var(--surface);
@@ -260,7 +250,6 @@ ul {
   color: var(--error);
 }
 
-/* 확인/취소 버튼 스타일 */
 #confirm-reservation-btn,
 #confirm-cancellation-btn {
   background-color: var(--primary);
@@ -277,7 +266,6 @@ ul {
   color: var(--surface);
 }
 
-/* 예약 카드 스타일 */
 .reservation-card {
   padding: 0;
   overflow: hidden;
@@ -402,7 +390,6 @@ ul {
   padding: var(--spacing-lg);
 }
 
-/* 예약 상세 카드 스타일 */
 .reservation-detail-card {
   background: var(--surface);
   border-radius: var(--radius-lg);
@@ -477,7 +464,6 @@ ul {
   border-top: 1px solid var(--border);
 }
 
-/* 헤더의 메인 페이지로 버튼 스타일 */
 .home-button {
   border: 1px solid var(--border);
 }
